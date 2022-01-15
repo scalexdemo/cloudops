@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8080;
 // App
 const app = express();
 app.get('/', function (req, res) {
-  res.send('Hello Hemant, wellcome to Cloudops project.\n');
+  res.send('Hello, wellcome to the cloudops demo project.\n');
 });
 
 app.listen(PORT);
